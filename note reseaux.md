@@ -24,7 +24,7 @@
 |-------
 |0|1|2|3|4|5|6|7|8|9|10|11|12|13|14 ... 1513|1514|1515|1516|1517|
 |-|-|-|Adresse MAC de destination|-|-|Adresse MAC Source |-|-|-|-|-| Type protocol |-|Données| FCS/CRC|-|-|-|
-1. Donc : trame (frame) ethernet
+* Donc : trame (frame) ethernet
  * adresse destination  	6octets (48bits)
  * adresse source       	6octets (48bits)
  * Type			2octets (16bits)
@@ -81,7 +81,7 @@
 * Chemin du dossier personnel de l'utilisateur peut etre remplacé par ~
 * voir son ip externe `wget -O - -q icanhazip.com `
 * Syst (aussi nommée « SysRq » sur certains clavier) est en fait celle de l'impression d'écran : « Impr. écran », « Print screen » ou autre. Elle est généralement située en haut à droite du clavier.
-1. Raccourcis :
+* Raccourcis :
   * Synchronisation des disques 		`Alt–Syst–s`
   * Stoppe les programmes gentiment 	`Alt–Syst–e`
   * Tue tous les programmes 		`Alt–Syst–i`
@@ -91,19 +91,19 @@
 
 ---
 ## Mémo git
-Se servir de git quand projet fait
-1. (`git pull`) pour récupérer ce qu'il y a sur le serveur
-* `git add (vos fichier ou alors .)`
-* `git commit -m 'je viens d'uplaod ça'`
-* `git push`
+* Se servir de git quand projet fait
+  * (`git pull`) pour récupérer ce qu'il y a sur le serveur
+  * `git add (vos fichier ou alors .)`
+  * `git commit -m 'je viens d'uplaod ça'`
+  * `git push`
 
-Initialiser un projet
-1. `echo "# projects" >> README.md`
-* `git init`
-* `git add README.md`
-* `git commit -m "first commit"`
-* `git remote add origin https://github.com/kasuke5/projects.git`
-* `git push -u origin master`
+* Initialiser un projet
+  * `echo "# projects" >> README.md`
+  * `git init`
+  * `git add README.md`
+  * `git commit -m "first commit"`
+  * `git remote add origin https://github.com/kasuke5/projects.git`
+  * `git push -u origin master`
 ---
 ## Mémo sublim text
 
