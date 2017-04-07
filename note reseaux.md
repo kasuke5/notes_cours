@@ -155,3 +155,9 @@ Dans le même ordre d'idée il est possible de déclarer un id :
 
 * `ip.src==adresse `: filtrer les adresses source
 * `ip.dst==adresse `: filtrer adresse de destination
+---
+## Atom
+* `Ctrl+Shift+p` ouvrir command panel
+* `Ctrl+Shift+a` Git add fichier
+* `Ctrl+Shift+x` Git commit
+* `Ctrl+Shift+a q` Add and Commit and Push
