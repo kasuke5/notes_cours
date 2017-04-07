@@ -8,13 +8,13 @@
 
 |    #   | Modèle OSI           | Modèle TCP/IP  | Rôle et Exemple | Protcl
 | ------------- |:--------:|:-----:|:------:|:----:|
-| 7     | Application | Application | internet |X|
+| 7     | Application | Application | internet |HTTP, HTTPS, Gopher, SMTP, SNMP, FTP, Telnet, NFS / DNS|
 | 6    | Présentation     |   Application| |X|
 | 5 | Session      |    Application | |X|
 | 4 | Transport      |    Transport| connexion de processus a processus, controle de flux .firewall| TCP/UDP|
 | 3 | Réseau     |    Réseau | interconnexion de reseau via routage. routeur/gateway| ARP,IPv4/6|
-| 2 | Liaison de données      |    Liaison  de données | switch|ethernet|
-| 1 | Physique      |    Physique| prise RJ45 hub |X|
+| 2 | Liaison de données      |    Liaison  de données | switch|ethernet,  Wi-Fi, Bluetooth, ZigBee, irDA (Infrared Data Association)|
+| 1 | Physique      |    Physique| prise RJ45 hub  |techniques de codage du signal (électronique, radio, laser, …) pour la transmission des informations sur les réseaux physiques (réseaux filaires, optiques, radioélectriques …)|
 
 * hub = communique en broadcast (couche 1)
 * switch = communique avec l'adresse direct de la machine (couche 2)
@@ -51,6 +51,7 @@
 ## Système
 * `iptables -L` liste les parefeu et gere port forwarding
 * `/etc/passwd` utilisateur du système
+* `/etc/group` pour voir tous les groupe système
 * Pour changer adresse ip `ifconfig {interface} 192.168.0.0`
 * `passwd` pour changer le mot de passe de l'utilisateur actuel
 * `find / -name nom_du_fichier` pour chercher partout via le nom_du_fichier ou `locate nom_du_fichier` mais il faut que la bdd de locate sois maj
@@ -161,3 +162,5 @@ Dans le même ordre d'idée il est possible de déclarer un id :
 * `Ctrl+Shift+a` Git add fichier
 * `Ctrl+Shift+x` Git commit
 * `Ctrl+Shift+a q` Add and Commit and Push
+
+***Notes : faire git push en console, l'extension galere avec le push***
