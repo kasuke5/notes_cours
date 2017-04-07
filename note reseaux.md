@@ -40,7 +40,8 @@
 ---
 ## Pratiques
 * Si host unreachable -> check le routage avec `route` ou `route -n`
->Pour ajouter une route `route add  default gw 192.168.1.0 netmask 0.0.0.0`
+  * Pour ajouter une route `route add  default gw 192.168.1.0 netmask 0.0.0.0`
+  * Pour supprimer une route `route del default`
 
 * Pour voir tous les ports en ecoute udp `netstat -anpu`
 * Pour voir tous les ports en ecoute TCP `netstat -antp`
