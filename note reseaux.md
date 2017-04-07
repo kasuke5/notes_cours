@@ -25,11 +25,11 @@
 |0|1|2|3|4|5|6|7|8|9|10|11|12|13|14 ... 1513|1514|1515|1516|1517|
 |-|-|-|Adresse MAC de destination|-|-|Adresse MAC Source |-|-|-|-|-| Type protocol |-|Données| FCS/CRC|-|-|-|
 * Donc : trame (frame) ethernet
- * adresse destination  	6octets (48bits)
- * adresse source       	6octets (48bits)
- * Type			2octets (16bits)
- * Données 		46 octets (min) - 1500 octets (max)
- * Checksum 		4 octets (32bits) en CRC
+  * adresse destination  	6octets (48bits)
+  * adresse source       	6octets (48bits)
+  * Type			2octets (16bits)
+  * Données 		46 octets (min) - 1500 octets (max)
+  * Checksum 		4 octets (32bits) en CRC
 
 
 * Adresse de réseau `00:00:00:00:00:00 ` sur 6 octets
