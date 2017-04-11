@@ -47,6 +47,9 @@
 * Pour voir tous les ports en ecoute TCP `netstat -antp`
 * `/etc/resolv.conf` conf DNS
 * Quand on se branche en ethernet l'un a l'autre :  `sudo ifconfig eth0 192.168.10.2 netmask 255.255.255.0` et l'autre : 	`sudo ifconfig eth0 192.168.10.3 netmask 255.255.255.0`
+* Scan ports TCP (envoi SYN) ouvert `nmap -sS ip`
+* Scan ports UDP ouvert `nmap -sU ip`
+* Connaitre version logiciel qui tourne sur des ports `nmap -sV ip`
 ---
 ## Système
 * `iptables -L` liste les parefeu et gere port forwarding
