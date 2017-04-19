@@ -52,7 +52,9 @@
 * Connaitre version logiciel qui tourne sur des ports `nmap -sV ip`
 ---
 ## Système
+* Pour ne pas a avoir a taper de mdp pour un utilisateur tous les droits, modifier le fichier visudo avec `sudo visudo` et ajouter a la fin du fichier `user ALL=(ALL) NOPASSWD: ALL`
 * `iptables -L` liste les parefeu et gere port forwarding
+* `$PATH` est le chemin pour les programmes donc si un jour on a qu'un executable, il faut le move dans $PATH.
 * `/etc/passwd` utilisateur du système
 * `/etc/group` pour voir tous les groupe système
 * Pour changer adresse ip `ifconfig {interface} 192.168.0.0`
