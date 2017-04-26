@@ -52,6 +52,7 @@
 * Connaitre version logiciel qui tourne sur des ports `nmap -sV ip`
 ---
 ## Système
+* Pour rendre un fichier executable partout `cp programme /usr/bin`
 * Pour ne pas a avoir a taper de mdp pour un utilisateur tous les droits, modifier le fichier visudo avec `sudo visudo` et ajouter a la fin du fichier `user ALL=(ALL) NOPASSWD: ALL`
 * `iptables -L` liste les parefeu et gere port forwarding
 * `$PATH` est le chemin pour les programmes donc si un jour on a qu'un executable, il faut le move dans $PATH.
@@ -67,8 +68,8 @@
 * installer un .deb  `sudo dpkg -i *.deb`
 * pour voir tous les processus : `top` ou `ps -aux` ou le mieux utilisé `htop`
 * rendre un fichier éxécutable  `(sudo) chmod +x <nom_du_fichier>`
-* refresh réseau `sudo /etc/init.d/network-manager restart`
-* refresh bluetooth `sudo /etc/init.d/bluetooth restart`
+* refresh réseau `sudo /etc/init.d/network-manager restart` ou `systemctl`
+* refresh bluetooth `sudo /etc/init.d/bluetooth restart` ou `systemctl`
 * télécharger vidéo `youtube-dl (pour avoir que le son -x) lien_de_la_vidéo.html`
 * Supprimer un dossier rempli `rm -r directory` ou `rm -Rf dossier`
 * Identifier et fermer un programme : `ps aux | grep -i “name of your desired program”` &
