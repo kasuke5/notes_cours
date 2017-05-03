@@ -136,7 +136,9 @@ Dans le même ordre d'idée il est possible de déclarer un id :
 * `u` -> Ctrl-Z maggle
 * `dd` -> couper toute la ligne
 * `Y` -> copier toute la ligne
-* `x` -> supprimer un caractÃ¨re
+* `x` -> supprimer un caractere
+* `G` -> aller à la fin du fichier
+* `.` -> répéter la dernière opération d'édition
 * `o` -> mode insertion en dessous
 * `O `-> mode insertion au dessus
 * `r` -> remplace qu'un seul car.
