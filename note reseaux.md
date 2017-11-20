@@ -52,6 +52,7 @@
 * Connaitre version logiciel qui tourne sur des ports `nmap -sV ip`
 ---
 ## Système
+* Aller au début d'une commande (début de la ligne de cmd) `CTRL + a`
 * Faire en sorte qu'une machine devienne routeur `echo 1 > /proc/sys/net/ipv4/ip_forward`
 * Pour rendre un fichier executable partout `cp programme /usr/bin`
 * Pour ne pas a avoir a taper de mdp pour un utilisateur tous les droits, modifier le fichier visudo avec `sudo visudo` et ajouter a la fin du fichier `user ALL=(ALL) NOPASSWD: ALL`
@@ -173,3 +174,6 @@ Dans le même ordre d'idée il est possible de déclarer un id :
 * `Ctrl+Shift+a q` Add and Commit and Push
 
 ***Notes : faire git push en console, l'extension galere avec le push***
+---
+## i3
+ 
