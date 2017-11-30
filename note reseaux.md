@@ -130,6 +130,12 @@ Dans le même ordre d'idée il est possible de déclarer un id :
 ---
 ## Mémo VIM
 
+* Commenter un boc :   
+                       1- `CTRL+V` sur le premier caractère de la première ligne à commenter, puis sélectionner toutes les lignes voulues avec la flèche du bas ou la touche J.
+                       2- `Maj+i` (I majuscule)
+                       3- Insérer le caractère de commentaire (# ou // ou n'importe quoi d'autre )
+                       4- `Esc, Esc`.
+* déplacer une ligne vers la droite (tab) `>`
 * rechercher un élément : -> `?`
 * `/ `	Rechercher du texte
   * `n `	Rechercher l'occurence suivante
@@ -176,4 +182,3 @@ Dans le même ordre d'idée il est possible de déclarer un id :
 ***Notes : faire git push en console, l'extension galere avec le push***
 ---
 ## i3
- 
