@@ -98,6 +98,12 @@
   * Redémarrage brutal de l'ordinateur 	`Alt–Syst–b`
   * Arrêt brutal de l'ordinateur 		`Alt–Syst–o `
 
+* Remplacer un mot dans plusieurs fichier à la fois : Pour remplacer "echo htmlentities" par "highlight_string" dans tous les fichiers php du répertoire courant tapez ceci :
+`sed -i 's/echo htmlentities/highlight_string/g' *.php`
+
+Alternative pour un chercher remplacer récursif :
+`find . -name "*.php" -exec sed -i 's/echo htmlentities/highlight_string/g' {} \;`
+
 ---
 ## Mémo git
 * Se servir de git quand projet fait
