@@ -39,6 +39,7 @@
 
 ---
 ## Pratiques
+* Pour voir quel application utilise un port `sudo lsof -i :port` remplace port par le port qu'il faut
 * Si host unreachable -> check le routage avec `route` ou `route -n`
   * Pour ajouter une route `route add  default gw 192.168.1.0 netmask 0.0.0.0`
   * Pour supprimer une route `route del default`
