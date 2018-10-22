@@ -55,6 +55,7 @@
 ## Système
 * Aller au début d'une commande (début de la ligne de cmd) `CTRL + a`
 * Faire en sorte qu'une machine devienne routeur `echo 1 > /proc/sys/net/ipv4/ip_forward`
+* Changer d'editeur par défaut `sudo update-alternatives --config editor`
 * Pour rendre un fichier executable partout `cp programme /usr/bin`
 * Pour ne pas a avoir a taper de mdp pour un utilisateur tous les droits, modifier le fichier visudo avec `sudo visudo` et ajouter a la fin du fichier `user ALL=(ALL) NOPASSWD: ALL`
 * `iptables -L` liste les parefeu et gere port forwarding
