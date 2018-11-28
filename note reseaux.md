@@ -53,6 +53,7 @@
 * Connaitre version logiciel qui tourne sur des ports `nmap -sV ip`
 ---
 ## Système
+* Voir ce qui déconne sur un service `sudo journalctl --unit LeService (nginx par exemple)`
 * Aller au début d'une commande (début de la ligne de cmd) `CTRL + a`
 * Faire en sorte qu'une machine devienne routeur `echo 1 > /proc/sys/net/ipv4/ip_forward`
 * Changer d'editeur par défaut `sudo update-alternatives --config editor`
