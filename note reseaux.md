@@ -53,6 +53,9 @@
 * Connaitre version logiciel qui tourne sur des ports `nmap -sV ip`
 ---
 ## Système
+* Pour savoir infos sur l'utilisateur (groupe gid, uid ...) `id`
+* Pour savoir qui on est `whoami`
+* Connaitre emplacement d'un binaire `which ls`
 * Voir connexion entrant et sortante de son système `sudo iftop`
 * Voir ce qui déconne sur un service `sudo journalctl --unit LeService (nginx par exemple)`
 * Aller au début d'une commande (début de la ligne de cmd) `CTRL + a`
