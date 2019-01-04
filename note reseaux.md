@@ -143,6 +143,7 @@ Dans le même ordre d'idée il est possible de déclarer un id :
 ---
 ## Mémo VIM
 
+* Sauvegarder en fichier en readonly `:w !sudo tee %`
 * Commenter un boc :   
                        1- `CTRL+V` sur le premier caractère de la première ligne à commenter, puis sélectionner toutes les lignes voulues avec la flèche du bas ou la touche J.
                        2- `Maj+i` (I majuscule)
