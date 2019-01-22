@@ -62,6 +62,9 @@
     * d pour supprimer partition
     * t changer type de partition
     * ET ON FINIS SOIT PAR w pour sauvegarder ce qu'on a fait ou q pour annuler
+* Voir utilisation d'un dossier genre sa taille `du -h` du pour Disk Usage
+  * ex : `du -h /home/` va lister aussi tout les sous dossiers
+  * pour voir taille d'un dossier (sans les sous dossier et direct du coup) `du -sh /home/`
 * Pour savoir infos sur l'utilisateur (groupe gid, uid ...) `id`
 * Pour savoir qui on est `whoami`
 * Connaitre emplacement d'un binaire `which ls`
