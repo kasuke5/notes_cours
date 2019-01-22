@@ -53,6 +53,15 @@
 * Connaitre version logiciel qui tourne sur des ports `nmap -sV ip`
 ---
 ## Système
+* Savoir info du disque en mode plus lisible `df -h`
+* Voir partitions `sudo fdisk -l`
+* Manipuler partition `sudo fdisk /dev/sd**`
+  * Liste des commandes utiles quand on est dans fdisk
+    * p pour voir info de la partition
+    * n pour créer nouvelle partition
+    * d pour supprimer partition
+    * t changer type de partition
+    * ET ON FINIS SOIT PAR w pour sauvegarder ce qu'on a fait ou q pour annuler
 * Pour savoir infos sur l'utilisateur (groupe gid, uid ...) `id`
 * Pour savoir qui on est `whoami`
 * Connaitre emplacement d'un binaire `which ls`
